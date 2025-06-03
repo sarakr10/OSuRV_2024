@@ -25,5 +25,5 @@ void loop() {
     Serial.wirte(0);
   }
   
-  delay(100);
+  delay(200);
 }
