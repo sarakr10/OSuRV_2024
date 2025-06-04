@@ -1,0 +1,3 @@
+- Arduino uzima podatke sa senzora i salje binarne vrednosti pomocu Serial.write()
+- python/c++ ROS node preuzima podatke sa serijske veze
+- preko ROS topic-a se upravljacki signal salje na ROS node 
