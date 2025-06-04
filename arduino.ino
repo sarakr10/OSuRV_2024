@@ -19,7 +19,7 @@ void loop() {
 
   duration = pulseIn(echoPin, HIGH);
   distance = (duration*.0343)/2;    //distanca u centimetrima
-  if(distance<5){
+  if(distance<8){
     Serial.write(1);
   }else{
     Serial.wirte(0);
